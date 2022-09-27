@@ -45,7 +45,8 @@ const hundleClick = async () => {
       height: "100vh"
         
     }} >
-      <button className="fetchButton" onClick={hundleClick}>今日のわんこ</button>
+      {/* <button className="fetchButton" onClick={hundleClick}>今日のわんこ</button> */}
+      <button className="btn btn-primary" onClick={hundleClick}>今日のわんこ</button>
       <img src={catImgUrl} width="500" height="auto" className="catImg" />
 
     </div>
