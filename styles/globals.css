@@ -63,6 +63,7 @@ a {
 .dog {
   display: flex;
   background-color: beige;
+  max-width: 100%;
   /* background-position: center; */
 
 }
